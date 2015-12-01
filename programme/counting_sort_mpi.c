@@ -103,16 +103,17 @@ int main(int argc, char *argv[]){
     if(argc == 3){
       printf("\nList after sorting:\n");
       print_list(result_list, N);
-
+    }
 
     // Free memory
     free(list);
+    free(result_count);
     free(result_list);
-    }
   }
 
   // Free memory
   free(scatter_receive);
+  free(count_part);
 
   MPI_Finalize();
   return EXIT_SUCCESS;
