@@ -79,7 +79,7 @@ int main(int argc, char *argv[]){
       print_list(list, N);
     }
 
-    printf("Starting counting sort for problem size %zu\n", N);
+    printf("Starting counting sort for problem size %zu and %i processes\n", N, comm_size);
     begin = MPI_Wtime();
   }
 
