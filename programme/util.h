@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-#define RANGE_MAX 10000
+#define RANGE_MAX 100
 #define PRINTF_WIDTH 10
 #define PRINTF_PRECISION 4
 #define MEMORY_MESSAGE "Not enough memory. Choose a smaller problem size!\n"
